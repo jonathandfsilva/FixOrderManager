@@ -23,3 +23,5 @@ ExecutionReport e a ordem deve ser considerada no cálculo de exposição.
 E caso a ordem seja rejeitada, o OrderAccumulator deve responder com um OrderReject e a 
 ordem não deve ser considerada no cálculo de exposição.
 
+OrderAccumulator & OrderGenerator em execução
+![image](https://user-images.githubusercontent.com/123670661/226199801-8130e8f2-9b06-4d90-9b94-8e1eaab1737a.png)
