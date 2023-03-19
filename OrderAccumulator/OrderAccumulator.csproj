@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <RootNamespace>SimpleAcceptor</RootNamespace>
+    <AssemblyName>SimpleAcceptor</AssemblyName>
+    <Copyright>Copyright © Connamara Systems, LLC 2011</Copyright>
+    <Company>Connamara Systems, LLC</Company>
+    <Platforms>AnyCPU;x64</Platforms>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="simpleacc.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="simpleacc_ssl.cfg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QuickFIXn.Core" Version="1.10.0" />
+    <PackageReference Include="QuickFIXn.FIX4.4" Version="1.10.0" />
+  </ItemGroup>
+
+</Project>
