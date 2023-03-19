@@ -25,3 +25,6 @@ ordem não deve ser considerada no cálculo de exposição.
 
 OrderAccumulator & OrderGenerator em execução
 ![image](https://user-images.githubusercontent.com/123670661/226199801-8130e8f2-9b06-4d90-9b94-8e1eaab1737a.png)
+
+
+Foram usadas as seguintes aplicações de exemplo disponíveis na QuickFix Engine para o desenvolvimento das aplicações OrderAccumulator e OrderGenerator, respectivamente: ![image](https://user-images.githubusercontent.com/123670661/226200932-35c84b11-c534-4d5f-accc-80c546764cfb.png)
